@@ -1,0 +1,70 @@
+#include <iostream>
+#include <math.h>
+#include <stdio.h>
+#include <cilk/cilk.h>
+
+using namespace std;
+
+#define N 3
+
+void multAx(int m,int n,double A[m][n], double X[n],double B[m]);
+double vecnorm2(int n,double x[n]);
+double matnorm2(int n, double A[n][n]);
+
+int main() {
+  double A[N][N] = {{7, 1, 7},
+                    {5, 7, 7},
+                    {3, 7, 8}};
+
+  matnorm2(N, A);
+
+  return 0;
+}
+
+// Algorithm (a) from page 13 of Numerical Algorithms by Justin Solomon
+void multAx(int m,int n,double A[m][n], double X[n],double B[m]){
+  bzero(B,m*sizeof(double));
+  cilk_for(int i=0;i<m;i++){
+    for(int j=0;j<n;j++){
+      B[i]=B[i]+A[i][j]*X[j];
+    }
+  }
+}
+
+double vecnorm2(int n,double x[n]){
+  double r=0;
+  for(int i=0;i<n;i++){
+    r+=x[i]*x[i];
+  }
+  return sqrt(r);
+}
+
+double matnorm2(int n, double A[n][n]) {
+  double B[n][n], y[n], yk[n];
+  bzero(B, sizeof(dboule)*n*n);
+  for(int k = 0; k < n; k++) {
+    for(int i = 0; i < n; i++) {
+      for(int j = 0; j < n; j++) {
+        B[i][j] += A[k][i]*A[k][j];
+      }
+    }
+  }
+
+  for(int i=0;i<n;i++){ // Choose x ∈ Rn randomly
+    y[i]=2.0*random()/RAND_MAX+1.0; // and store x in y for now
+  }
+  double q=0,qk;
+  for(int k=1;k<100*n;k++){
+    multAx(n,n,B,y,yk); // yk = Bk
+    qk=vecnorm2(n,yk);
+    for(int j=0;j<n;j++){
+      y[j]=yk[j]/qk; // Overwrite y by yk/∥yk∥2
+    }
+    if(fabs(qk-q)<5e-15*qk){ // Converge to 15 digits where
+      return sqrt(qk); // ∥A∥2 ≈ (∥Bk
+    }
+    q=qk;
+  }
+  fprintf(stderr,"matnorm2: Failed to converge!\n");
+  return sqrt(qk);
+}
