@@ -1,0 +1,9 @@
+Midterm Part 1 Question 3.
+||AB-matmat|| = 0.00000000000000e+00
+Correct!  matmatAB passed the rounding error test!
+||CTA-matmat|| = 0.00000000000000e+00
+Correct!  matmatATB passed the rounding error test!
+||CBT-matmat|| = 0.00000000000000e+00
+Correct!  matmatABT passed the rounding error test!
+||BTAT-matmat|| = 0.00000000000000e+00
+Correct!  matmatATBT passed the rounding error test!
