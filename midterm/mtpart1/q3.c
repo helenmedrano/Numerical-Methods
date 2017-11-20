@@ -81,7 +81,6 @@ void matmatABT(int m,int p,int n,double A[m][p],double B[n][p],
     transposeMatrix(n, p, B, B_T);
     matrixMult(m, p, n, A, B_T, ABT);
 
-/*  Fill in the code here. */
 
 }
 
@@ -96,7 +95,6 @@ void matmatATBT(int m,int p,int n,double A[p][m],double B[n][p],
 
     matrixMult(m, p, n, A_T, B_T, ATBT);
 
-/*  Fill in the code here. */
 
 }
 

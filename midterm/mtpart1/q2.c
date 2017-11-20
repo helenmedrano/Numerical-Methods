@@ -145,10 +145,11 @@ void PLUfact(int n, double A[n][n], double P[n][n]) {
     }
 
 
+  /*
   printf("Matrix LU:\n");
   matPrint(n, n, A);
   printf("Matrix P:\n");
-  matPrint(n, n, P);
+  matPrint(n, n, P);*/
 }
 
 //  Find the inverse of matrix A and return it as B.  This routine does
@@ -188,18 +189,20 @@ void matinv(int n,double A[n][n],double B[n][n]){
             B[i][j] = B[i][j] / LU[i][i];
           }
     }
+  /*
     printf("\nMatrix A: \n");
     matPrint(n, n, A);
 
     printf("\ninverse: \n");
     matPrint(n, n, B);
+    */
 }
 
 
 
 
-//#define N 256
-#define N 4
+#define N 256
+//#define N 4
 double A[N][N],Ainv[N][N],R[N][N];
 int main(){
     printf("Midterm Part 1 Question 2.\n");

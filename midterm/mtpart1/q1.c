@@ -67,7 +67,7 @@ void ifft(int n,int s,complex x[],complex b[]){
     ifft(K,2*s,&x[s],&b[K]);
     ifft(K,2*s,&x[0],&b[0]);
     for(int k=0;k<K;k++){
-        complex w=cexp(I*2*M_PI*k/n);
+        complex w=cexp(I*2*M_PI*k/n)/n;
         complex be=b[k],bo=b[k+K];
         b[k]=be+w*bo;
         b[k+K]=be-w*bo;
