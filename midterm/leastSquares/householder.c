@@ -88,6 +88,25 @@ void householder(int m,int n,double A[m][n],
     }
 }
 
+void matrixMult(int m, int n, int q, double A[m][n], double B[n][q], double result[m][q]) {
+  for(int i = 0; i < m; i++) {
+    for(int j = 0; j < q; j++) {
+      result[i][j] = 0;
+      for(int k = 0; k < n; k++) {
+        result[i][j] += A[i][k] * B[k][j];
+      }
+    }
+  }
+}
+
+void transposeMatrix(int m, int n, double A[m][n], double result[n][m]) {
+  for(int i = 0; i < m; i++) {
+    for(int j = 0; j < n; j++) {
+      result[j][i] = A[i][j];
+    }
+  }
+}
+
 #define N 4
 
 int main(){
@@ -111,13 +130,27 @@ int main(){
         }
     }
     householder(m,N,A,R,Q);
+    
+    /* for Gram-schmidt */
+    //double QT[N][m];
+    //gramschmidt(m, N,A,QT);
+    //transposeMatrix(N, m, QT, Q);
+    /* end of gram-schmidt*/
+    
     double qty[N];
     bzero(qty,sizeof(double)*N);
+    
+    
+    
     for(int i=0;i<m;i++){
         for(int j=0;j<N;j++){
             qty[j]+=Q[i][j]*Y[i];
         }
     }
+    
+    /* FOR gram-schmidt */
+    //matrixMult(N, m, N, QT, A, R);
+    
     double c[N];
     backsub(N,R,c,qty);
     printf("c=\n"); vecprint(N,c);
