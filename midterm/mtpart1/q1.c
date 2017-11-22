@@ -70,7 +70,7 @@ void ifft(int n,int s,complex x[],complex b[]){
         complex w=cexp(I*2*M_PI*k/n)/n;
         complex be=b[k],bo=b[k+K];
         b[k]=be+w*bo;
-        b[k+K]=be-w*bo;
+        b[k+K]=(be-w*bo);
     }
 
 
@@ -88,8 +88,8 @@ void cvecprint(int m,complex X[m]){
   cmatprint(m,1,(complex (*)[1])X);
 }
 
-//#define N 256
-#define N 4
+#define N 256
+//#define N 4
 complex X[N],Y[N],Z[N];
 int main(){
     printf("Midterm Part 1 Question 1.\n");
