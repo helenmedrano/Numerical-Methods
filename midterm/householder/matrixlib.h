@@ -6,6 +6,7 @@
 #include <string.h>
 #include <sys/time.h>
 #include <sys/resource.h>
+#include <cilk/cilk.h>
 
 void matprint(int m,int n,double A[m][n]);
 void vecprint(int m,double X[m]);

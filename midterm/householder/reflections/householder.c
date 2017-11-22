@@ -17,25 +17,13 @@ double dotprod(int n,double x[n],double y[n]){
     return s;
 }
 
-typedef double func(double);
-
-/*
-#define N 6
 double phi0(double x){ return 1.0; }
 double phi1(double x){ return x; }
 double phi2(double x){ return x*x; }
 double phi3(double x){ return x*x*x; }
-double phi4(double x){ double r=x*x; return r*r; }
-double phi5(double x){ return pow(x,5.0); } 
-func *phi[N] = { phi0, phi1, phi2, phi3, phi4, phi5 };
-*/
 
-#define N 4
-double phi0(double x){ return 1.0; }
-double phi1(double x){ return cos(x); }
-double phi2(double x){ return cos(sqrt(2.0)*x); }
-double phi3(double x){ return cos(sqrt(3.0)*x); }
-func *phi[N] = { phi0, phi1, phi2, phi3 };
+typedef double func(double);
+func *phi[4] = { phi0, phi1, phi2, phi3 };
 
 void gramschmidt(int m,int n,double A[m][n],
     double QT[n][m]){
@@ -100,7 +88,7 @@ void householder(int m,int n,double A[m][n],
     }
 }
 
-
+#define N 4
 
 int main(){
     setrlimit(RLIMIT_STACK,

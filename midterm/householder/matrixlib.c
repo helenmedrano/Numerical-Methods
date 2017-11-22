@@ -2,6 +2,7 @@
 #include <strings.h>
 #include <complex.h>
 #include <math.h>
+#include <cilk/cilk.h>
 #include "matrixlib.h"
 
 void matprint(int m,int n,double A[m][n]){
@@ -85,7 +86,6 @@ void lufact(int n,double A[n][n]){
 }
 void backsub(int n,double U[n][n],
     double x[n],double y[n]){
-    // Rb =c 
     for(int i=n-1;i>=0;i--){  // Ux=y
         x[i]=y[i];
         for(int j=i+1;j<n;j++){
@@ -133,7 +133,7 @@ void plufact(int n,double A[n][n],
                 double *t=P[i]; P[i]=P[j]; P[j]=t;
             }
         }
-        for(int j=i+1;j<n;j++){
+        cilk_for(int j=i+1;j<n;j++){
             double alpha=P[j][i]/P[i][i];
             for(int k=i+1;k<n;k++){
                 P[j][k]-=alpha*P[i][k];
