@@ -1,9 +1,32 @@
-Midterm Part 1 Question 3.
-||AB-matmat|| = 0.00000000000000e+00
-Correct!  matmatAB passed the rounding error test!
-||CTA-matmat|| = 0.00000000000000e+00
-Correct!  matmatATB passed the rounding error test!
-||CBT-matmat|| = 0.00000000000000e+00
-Correct!  matmatABT passed the rounding error test!
-||BTAT-matmat|| = 0.00000000000000e+00
-Correct!  matmatATBT passed the rounding error test!
+============= DFT ==============
+A=
+1 
+6.12323e-17 
+-1 
+-1.83697e-16 
+X=
+2 
+1.5 
+1.33333 
+1.25 
+B=
+2 
+9.18485e-17 
+-1.33333 
+-2.29621e-16 
+============= PDFT ==============
+A=
+1 
+6.12323e-17 
+1 
+6.12323e-17 
+X=
+2 
+1.5 
+1.33333 
+1.25 
+B=
+2 
+9.18485e-17 
+1.33333 
+7.65404e-17 
