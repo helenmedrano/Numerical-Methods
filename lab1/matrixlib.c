@@ -104,6 +104,24 @@ void PLUsolve(int n,double LU[n][n],double *P[n],
     }
 }
 
+void cPLUsolve(int n,complex LU[n][n],complex *P[n],
+    complex x[n],complex b[n]){
+    complex y[n];
+    for(int i=0;i<n;i++){ // Solve Ly=b
+        y[i]=b[(P[i]-&LU[0][0])/n];
+        for(int j=0;j<i;j++){
+            y[i]-=P[i][j]*y[j];
+        }
+    }
+    for(int i=n-1;i>=0;i--){ // Solve Ux=y
+        x[i]=y[i];
+        for(int j=i+1;j<n;j++){
+            x[i]-=P[i][j]*x[j];
+        }
+        x[i]/=P[i][i];
+    }
+}
+
 void PLUfact(int n,double A[n][n],double *P[n]){
     for(int i=0;i<n;i++){
         P[i]=&A[i][0];
@@ -117,6 +135,27 @@ void PLUfact(int n,double A[n][n],double *P[n]){
         }
         for(int i=j+1;i<n;i++){
             double alpha=P[i][j]/P[j][j];
+            for(int k=j+1;k<n;k++){
+                P[i][k]-=alpha*P[j][k];
+            }
+            P[i][j]=alpha;
+        }
+    }
+}
+
+void cPLUfact(int n,complex A[n][n], complex *P[n]){
+    for(int i=0;i<n;i++){
+        P[i]=&A[i][0];
+    }
+    for(int j=0;j<n-1;j++){
+        for(int i=j+1;i<n;i++){
+            if(fabs(P[j][j])<fabs(P[i][j])){
+                complex *t=P[j]; P[j]=P[i]; P[i]=t;
+//                printf("Swapped row %d with row %d\n",j,i);
+            }
+        }
+        for(int i=j+1;i<n;i++){
+            complex alpha=P[i][j]/P[j][j];
             for(int k=j+1;k<n;k++){
                 P[i][k]-=alpha*P[j][k];
             }
@@ -149,6 +188,22 @@ double vecnorm2(int n,double x[n]){
         r+=x[i]*x[i];
     }
     return sqrt(r);
+}
+
+double cvecnorm2(int n,complex x[n]){
+    complex r=0;
+    for(int i=0;i<n;i++){
+        r+=x[i]*x[i];
+    }
+    return sqrt(r);
+}
+
+complex cdotprod(int n,complex x[n],complex y[n]){
+    complex s=0.0;
+    for(int i=0;i<n;i++){
+        s+=conj(x[i])*y[i];
+    }
+    return s;    
 }
     
 double matnorm2(int n,double A[n][n]){
@@ -193,4 +248,6 @@ double matnorm2(int n,double A[n][n]){
     printf("Didn't converge!\n");
     return sqrt(normyk/normy);
 }
+
+
 

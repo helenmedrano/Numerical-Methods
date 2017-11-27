@@ -24,8 +24,13 @@ extern void LUsolve(int n,double LU[n][n],
     double x[n],double b[n]);
 extern void PLUsolve(int n,double LU[n][n],double *P[n],
     double x[n],double b[n]);
+extern void cPLUsolve(int n,complex LU[n][n],complex *P[n],
+    complex x[n],complex b[n]);
 extern void PLUfact(int n,double A[n][n],double *P[n]);
+extern void cPLUfact(int n,complex A[n][n],complex *P[n]);
 extern double vecnorm1(int n,double x[n]);
 extern double matnorm1(int n,double A[n][n]);
 extern double vecnorm2(int n,double x[n]);
+extern double cvecnorm2(int n,complex x[n]);
 extern double matnorm2(int n,double A[n][n]);
+extern complex cdotprod(int n,complex x[n],complex y[n]);
