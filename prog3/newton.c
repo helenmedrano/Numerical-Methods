@@ -42,6 +42,7 @@ void newtonsMethod(double x, double e[N]) {
 }
 
 // |e_n+1| = M_n*|e_n|^2
+// M_n = |e_n+1|/|e_n|^2
 void M_n(double e_n[N], double M[N]) {
   int n = 4;
   printf("n | M_n\n");
