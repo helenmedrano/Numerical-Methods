@@ -34,3 +34,7 @@ extern double vecnorm2(int n,double x[n]);
 extern double cvecnorm2(int n,complex x[n]);
 extern double matnorm2(int n,double A[n][n]);
 extern complex cdotprod(int n,complex x[n],complex y[n]);
+extern void cmultMatByConst(int m, int n, complex constant, complex A[n][n]);
+extern void cmatrixMult(int m, int n, int q, complex A[m][n], complex B[n][q], complex result[m][q]);
+extern void cidentityMatrix(int n, complex A[n][n]);
+extern void cmatrixSub(int n, complex A[n][n], complex B[n][n], complex result[n][n]);

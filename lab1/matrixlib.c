@@ -12,6 +12,46 @@ void matprint(int m,int n,double A[m][n]){
         printf("\n");
     }
 }
+
+void cmatrixMult(int m, int n, int q, complex A[m][n], complex B[n][q], complex result[m][q]) {
+  for(int i = 0; i < m; i++) {
+    for(int j = 0; j < q; j++) {
+      result[i][j] = 0;
+      for(int k = 0; k < n; k++) {
+        result[i][j] += A[i][k] * B[k][j];
+      }
+    }
+  }
+}
+
+void cidentityMatrix(int n, complex A[n][n]) {
+  for(int i = 0; i < n; i++) {
+    for(int j  = 0; j < n; j++) {
+      if(i == j)
+        A[i][j] = 1;
+      else
+        A[i][j] = 0;
+    }
+  }
+}
+
+void cmultMatByConst(int m, int n, complex constant, complex A[n][n]) {
+  for(int i = 0; i < m; i++) {
+    for(int j  = 0; j < n; j++) {
+      A[i][j] *= constant;
+    }
+  }
+}
+
+void cmatrixSub(int n, complex A[n][n], complex B[n][n], complex result[n][n]) {
+  for(int i = 0; i < n; i++) {
+    for(int j  = 0; j < n; j++) {
+      result[i][j] = A[i][j] - B[i][j];
+    }
+  }
+
+}
+
 void cmatprint(int m,int n,complex A[m][n]){
     for(int i=0;i<m;i++){
         for(int j=0;j<n;j++){
@@ -149,7 +189,7 @@ void cPLUfact(int n,complex A[n][n], complex *P[n]){
     }
     for(int j=0;j<n-1;j++){
         for(int i=j+1;i<n;i++){
-            if(fabs(P[j][j])<fabs(P[i][j])){
+            if(cabs(P[j][j])<cabs(P[i][j])){
                 complex *t=P[j]; P[j]=P[i]; P[i]=t;
 //                printf("Swapped row %d with row %d\n",j,i);
             }

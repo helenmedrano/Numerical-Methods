@@ -1,0 +1,6518 @@
+Midterm Part 2 Question 2.
+N=5
+A=
+(-4 0) (-3 0) (-7 0) (5 0) (7 0) 
+(0 0) (2 0) (-7 0) (6 0) (-6 0) 
+(-2 0) (-6 0) (-2 0) (4 0) (-1 0) 
+(-1 0) (-7 0) (-5 0) (-7 0) (-1 0) 
+(-1 0) (-2 0) (-2 0) (-8 0) (1 0) 
+B=
+(-4.5 -4) (-3 0) (-7 0) (5 0) (7 0) 
+(0 0) (1.5 -4) (-7 0) (6 0) (-6 0) 
+(-2 0) (-6 0) (-2.5 -4) (4 0) (-1 0) 
+(-1 0) (-7 0) (-5 0) (-7.5 -4) (-1 0) 
+(-1 0) (-2 0) (-2 0) (-8 0) (0.5 -4) 
+After PLUfact B=
+(-4.5 -4) (-3 0) (-7 0) (5 0) (7 0) 
+(-0 0) (-0.195693 0.613312) (-8.28215 2.38246) (2.29597 4.30572) (-5.89201 1.29742) 
+(0.248276 -0.22069) (0.795928 0.060141) (-0.426675 0.442526) (11.8997 5.15753) (-3.14375 4.20338) 
+(0.124138 -0.110345) (-6.62759 -0.331034) (-4.13103 -0.772414) (-8.12069 -3.44828) (-1.86897 0.772414) 
+(0.124138 -0.110345) (0.247455 0.0375881) (0.00170387 0.0519259) (-0.412783 0.311994) (0.213704 -0.328819) 
+yk after cPLUsolve = 
+(8.20869 -4.25605) 
+(-2.93998 1.90631) 
+(-1.97723 -1.27443) 
+(1.34762 -1.41528) 
+(3.89214 2.50812) 
+qk, yknorm: 0.535062, 4.010539
+y = 
+(1.01633 -0.526948) 
+(-0.364003 0.236023) 
+(-0.244804 -0.157789) 
+(0.166851 -0.175228) 
+(0.481893 0.310534) 
+yk after cPLUsolve = 
+(1.69618 4.52173) 
+(-0.769764 -1.42514) 
+(0.725261 -0.823085) 
+(0.568818 0.751982) 
+(-1.35919 1.8298) 
+qk, yknorm: 0.486436, 3.877036
+yk_Norm: nan
+yk[j] on 3rd iteration, yknorm, yk_j/yknorm: 1.69618, 4.521727, nan
+yk_Norm: nan
+yk[j] on 3rd iteration, yknorm, yk_j/yknorm: -0.769764, -1.425145, nan
+yk_Norm: nan
+yk[j] on 3rd iteration, yknorm, yk_j/yknorm: 0.725261, -0.823085, nan
+yk_Norm: nan
+yk[j] on 3rd iteration, yknorm, yk_j/yknorm: 0.568818, 0.751982, nan
+yk_Norm: nan
+yk[j] on 3rd iteration, yknorm, yk_j/yknorm: -1.35919, 1.829800, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+yk after cPLUsolve = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+qk, yknorm: nan, nan
+y = 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+(nan nan) 
+|A^-1|_2=nan

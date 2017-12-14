@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include "matrixlib.h"
+#include <complex.h>
 
 double q6matnorm2(int n,double A[n][n]){
     double B[n][n],y[n],yk[n];
@@ -103,11 +104,22 @@ complex shiftinvpower(int n,complex A[n][n], complex alpha){
             }
         }
     }*/
-    
-    
-    
+
+    complex identity[n][n];
+    cidentityMatrix(n, identity);
+    // I = alpha*I
+    cmultMatByConst(n, n, alpha, identity);
+    // A-alpha*I
+    cmatrixSub(n, A, identity, B);
+
+    printf("B=\n");
+    cmatprint(n, n, B);
+
     //PLUfact(n,B,P);
     cPLUfact(n, B, P);
+
+    printf("After PLUfact B=\n");
+    cmatprint(n, n, B);
     
     for(int i=0;i<n;i++){                 // Choose x in R^n randomly
         y[i]=2.0*random()/RAND_MAX+1.0;   // and store x in y for now
@@ -116,19 +128,36 @@ complex shiftinvpower(int n,complex A[n][n], complex alpha){
     for(int k=1;k<100*n;k++){
         //PLUsolve(n,B,P,yk,y);             // yk = B^-k x/|B^(1-k)x|
         cPLUsolve(n, B, P, yk, y);
-        
-        qk=cvecnorm2(n,yk);
+
+        printf("yk after cPLUsolve = \n");
+        cvecprint(n, yk);
+
+        qk = alpha+1.0/cdotprod(n, y, yk);
+        double yknorm = cvecnorm2(n, yk);
+
+        printf("qk, yknorm: %g, %f\n", qk, yknorm);
+
         for(int j=0;j<n;j++){
-            y[j]=yk[j]/qk;                // Overwrite y by y_k/|y_k|
+          y[j] = yk[j]/yknorm;
+          if(k == 2) {
+            printf("yk_Norm: %f\n", yknorm);
+            printf("yk[j] on 3rd iteration, yknorm, yk_j/yknorm: %g, %f, %g\n", yk[j], yknorm, yk[j]/yknorm);
+          }
         }
-        
+
+        printf("y = \n");
+        cvecprint(n, y);
+
+
         if(cabs(qk-q)<cabs(5e-15*qk)){          // Converge to 15 digits where
-            return sqrt(qk);              // |A|=sqrt(|B^-k x|/|B^(1-k)x|)
+            //return sqrt(qk);              // |A|=sqrt(|B^-k x|/|B^(1-k)x|)
+            return qk;
         }
         q=qk;
     }
     fprintf(stderr,"q6invmatnorm2: Failed to converge!\n");
-    return sqrt(qk);
+    //return sqrt(qk);
+    return qk;
 }
 
 double q6cond2(int n,double A[n][n]){
@@ -145,10 +174,10 @@ int main(){
     printf("A=\n"); cmatprint(N,N,A);
     for(int i=0;i<N;i++) X[i]=1;
     double t1,t2;  // for efficiency no need to compute norms twice.
-    printf("|A|_2=%.15g\n",t1=cq6matnorm2(N,A));
-    complex alpha = .5+4i;
+    //printf("|A|_2=%.15g\n",t1=cq6matnorm2(N,A));
+    complex alpha = .5+4*I;
     printf("|A^-1|_2=%.10g\n",t2=shiftinvpower(N,A, alpha));
 //    printf("cond2(A)=%.10g\n",q6cond2(N,A));
-    printf("cond2(A)=%.10g\n",t1*t2);
+    //printf("cond2(A)=%.10g\n",t1*t2);
     return 0;
 }
