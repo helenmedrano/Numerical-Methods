@@ -14,50 +14,29 @@ double derivative(double x) {
   return 3*x*x;
 }
 
-// e_n = x_n - 3^1/3
-double e_n(double x) {
-  return x-pow(3, 1/3);
+double g_x(double x) {
+  return x-function(x)/derivative(x);
 }
 
-void printTableRow(int n, double x_n, double e_n) {
-  printf("%d | %lf | %lf\n", n, x_n, e_n);
+double e_n(double x, double x_inf) {
+  return x-x_inf;
 }
 
-void newtonsMethod(double x, double e[N]) {
-  double h, x_n;
-
-  printf("n | x_n | e_n\n");
-
-  for(int i = 0; i < N; i++) {
-    h = function(x)/derivative(x);
-    x_n = x-h;
-
-    e[i] = e_n(x_n);
-    printTableRow(i, x_n, e[i]);
-
-    x = x_n;
-  }
-
-  printf("The root's value is: %f\n", x);
-}
-
-// |e_n+1| = M_n*|e_n|^2
-// M_n = |e_n+1|/|e_n|^2
-void M_n(double e_n[N], double M[N]) {
-  int n = 4;
-  printf("n | M_n\n");
-  for(int i = 1; i <= n; i++) {
-    M[i] = fabs(e_n[i+1])/(pow(fabs(e_n[i]), 2));
-    printf("%d | %f\n", i, M[i]);
-  }
+unsigned significantDigits(double ps, double p) {
+  double err = fabs((p-ps)/p);
+  return (int)ceil(-log(err/5)/log(10));
 }
 
 int main() {
   double x_0 = 1;
-  double n[] = {0, 1, 2, 3, 4, 5, 6, 7, 8};
-  double e_n[N], m_n[N];
-  newtonsMethod(x_0, e_n);
-  M_n(e_n, m_n);
+  double x = x_0;
+  double x_inf = pow(3, 1./3.);
+  printf("xinf: %22.14e\n", x_inf);
+  printf("%2s %22s %22s %12s\n","n","xn","en", "significantDigits");
+  for(int i = 0; i < N ; i++) {
+    printf("%3d %22.14e %22.14e %12u\n", i, x, e_n(x, x_inf), significantDigits(x, x_inf));
+    x = g_x(x);
+  }
 
   return 0;
 }
