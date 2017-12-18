@@ -32,6 +32,19 @@ void tdthomas(int n,double u[n],double v[n],double w[n-1], double x[n],double b[
 
 }
 
+void matPrint(int m, int n, double A[m][n]) {
+  for(int i = 0; i < m; i++) {
+    for(int j = 0; j < n; j++) {
+      printf("%g ", A[i][j]);
+    }
+    printf("\n");
+  }
+}
+
+void vecprint(int m,double X[m]){
+  matPrint(m,1,(double (*)[1])X);
+}
+
 int main() {
   double u[N] = { 0, -1, -1, -1 };
   double v[N] = { 4,  4,  4,  4 };
@@ -40,9 +53,7 @@ int main() {
   double x[N];
   // results    { 2,  3,  5, 7  }
   tdthomas(N, u, v, w, x, b);
-  for (int i = 0; i < N; i++) {
-    printf("%f\n", x[i]);
-  }
+  vecprint(N, x);
 
   return 0;
 }
