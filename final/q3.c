@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <strings.h>
+#include <string.h>
 
 #define N 4
 
