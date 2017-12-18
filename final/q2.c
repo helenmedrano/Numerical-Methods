@@ -122,11 +122,17 @@ int main() {
   double x[N];
   double b[M] = {6, 9};
   double b_check[M];
+
+  printf("A=:\n");
+  matPrint(M, N, A);
+  printf("b=:\n");
+  vecprint(M, b);
+
   undsolve(M, N, A, x, b);
   printf("x=:\n");
   vecprint(N, x);
 
-  printf("Checking computation of x where b check =:\n");
+  printf("Checking computation of x with Ax=b_check where b_check =:\n");
   multAx(M, N, A, x, b_check);
   vecprint(M, b_check);
   return 0;
